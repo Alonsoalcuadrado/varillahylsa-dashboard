@@ -3,3 +3,10 @@
 @import 'application/base/text-styles';
 @import 'application/base/base';
 @import 'application/base/general-styles';
+
+//Layouts
+@import 'application/layouts/full.scss';
+
+//Shared Components
+@import 'application/shared-components/aside-navbar.scss';
+@import 'application/shared-components/navbar.scss';
