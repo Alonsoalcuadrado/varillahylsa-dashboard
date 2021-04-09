@@ -1,8 +1,8 @@
-// import { Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 
-// export const UNAUTH_ROUTES: Routes = [
-//     {
-//         path: '',
-//         loadChildren: () => import ('../unauth-pages/unauth-pages.module').then((m) => m.UnauthPagesModule),
-//     },
-// ];
+export const FULL_ROUTES: Routes = [
+    {
+        path: '',
+        loadChildren: () => import ('../pages/home/home.module').then((m) => m.HomeModule),
+    },
+];
