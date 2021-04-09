@@ -16,6 +16,7 @@ section#navbar {
             padding-right: 24px;
             i{
                 font-size: 3rem;
+                padding-right: 8px
             }
             p {
                 @include info-text;
@@ -28,6 +29,11 @@ section#navbar {
         justify-content: flex-end;
         div.contact-buttons__button {
             padding-right: 24px;
+        }
+        div.contact-buttons__button--whatsapp {
+            i {
+                padding-left: 8px;
+            }
         }
     }
 }
