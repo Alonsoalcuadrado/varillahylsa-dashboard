@@ -1,5 +1,33 @@
 section#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 80px;
+    padding: 0 40px;
     border-bottom: 2px solid $brand-color;
+    div.contact-text {
+        display: flex;
+        align-items: center;
+        width: 42%;
+        div.contact-text__contact {
+            display: flex;
+            align-items: center;
+            padding-right: 24px;
+            i{
+                font-size: 3rem;
+            }
+            p {
+                @include info-text;
+            }
+        }
+    }
+    div.contact-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        div.contact-buttons__button {
+            padding-right: 24px;
+        }
+    }
 }

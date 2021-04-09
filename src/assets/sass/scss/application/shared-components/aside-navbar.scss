@@ -23,7 +23,7 @@ section#aside-navbar {
                 width: 100%;
                 height: 48px;
                 padding: 0 18px;
-                @include links;
+                @include navigation-link;
                 i.navbar-links__left-icon {
                     margin-right: 8px;
                 }
@@ -35,6 +35,7 @@ section#aside-navbar {
                 a{
                     .navbar-links__right-icon {
                         width: 100%;
+                        font-size: 1.2rem;
                         text-align: end;
                     }
                 }

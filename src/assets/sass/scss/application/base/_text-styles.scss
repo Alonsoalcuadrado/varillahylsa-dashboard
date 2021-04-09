@@ -1,5 +1,17 @@
-@mixin links {
+@mixin navigation-link {
     font-size: 1.8rem;
     color: $white-color;
     text-decoration: none;
+}
+
+@mixin info-text {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $black-color;
+}
+
+@mixin button-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $white-color;
 }
