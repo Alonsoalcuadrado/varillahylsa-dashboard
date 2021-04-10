@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 48px;
+    height: 40px;
     padding: 14px 27px;
     border: none;
     outline: none;
@@ -37,11 +37,24 @@
         box-shadow: 0px 5px 0px rgba(37, 211, 102, 0.75);
         &:enabled {
           &:hover {
-            background-color: rgba($color: $whatsapp-color, $alpha: 0.9);
+            background-color: rgba($color: $whatsapp-color, $alpha: 0.95);
           }
           &:active {
             background-color: rgba($color: $whatsapp-color, $alpha: 0.9);
           }
         }
     }
-}
+    &--more {
+      @extend .button;
+      font-size: 1.4rem;
+      background-color: $secondary-color;
+      &:enabled {
+        &:hover {
+          background-color: rgba($color: $secondary-color, $alpha: 0.95);
+        }
+        &:active {
+          background-color: rgba($color: $secondary-color, $alpha: 0.9);
+        }
+      }
+    }
+  }

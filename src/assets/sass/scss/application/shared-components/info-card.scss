@@ -1,0 +1,15 @@
+section#info-card {
+    width: 500px;
+    margin: 38px;
+    padding: 16px;
+    background-color: red;
+    h3.info-card__title {
+        margin-bottom: 8px;
+    }
+    p.info-card__body {
+        margin-bottom: 20px;
+    }
+    div.button-container {
+        width: 110px;
+    }
+}

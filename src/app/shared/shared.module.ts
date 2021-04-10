@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { AsideNavbarComponent } from './aside-navbar/aside-navbar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LinkCardComponent } from './link-card/link-card.component';
+import { InfoCardComponent } from './info-card/info-card.component';
 
 
 
@@ -10,7 +12,8 @@ import { LinkCardComponent } from './link-card/link-card.component';
   declarations: [
     AsideNavbarComponent,
     NavbarComponent,
-    LinkCardComponent
+    LinkCardComponent,
+    InfoCardComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +21,8 @@ import { LinkCardComponent } from './link-card/link-card.component';
   exports: [
     AsideNavbarComponent,
     NavbarComponent,
-    LinkCardComponent
+    LinkCardComponent,
+    InfoCardComponent
   ]
 })
 export class SharedModule { }
