@@ -12,14 +12,14 @@ section#full-layout {
     div.navbar-container {
         position: fixed;
         left: 18%;
-        width: 100%;
+        width: 82%;
         background: $white-color;
         z-index: 2000000;
     }
 
     div.main-content {
         padding-left: 18%;
-        padding-top: 5.5%;
+        padding-top: 79px;
         width: 100%;
     }
 }
