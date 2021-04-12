@@ -1,4 +1,16 @@
 <section id="home-page">
+    <div class="carousel-container">
+        <carousel
+        [images]="images"
+        [objectFit]="'cover'"
+        [cellWidth]="'100%'"
+        [height]="400"
+        [arrowsOutside]="false"
+        [autoplay]="true"
+        [dots]="true"
+        [loop]="true">
+    </carousel>
+    </div>
     <div class="link-cards">
         <app-link-card image="assets/images/envasados.png" title="Envasados"></app-link-card>
         <app-link-card image="assets/images/agregados.png" title="Agregados"></app-link-card>

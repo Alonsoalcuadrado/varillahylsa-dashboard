@@ -8,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public images = [{path: 'assets/images/construction.jpg'},
+                   {path: 'assets/images/constructionSite.jpg'},
+                   {path: 'assets/images/construction.jpg'},
+                   {path: 'assets/images/construction.jpg'},
+                   {path: 'assets/images/construction.jpg'}];
+
+  constructor() {}
 
   ngOnInit(): void {
   }
