@@ -1,0 +1,46 @@
+section#about-us {
+    width: 100%;
+    padding: 30px 40px;
+
+    h2.about-us__title {
+        margin-bottom: 32px;
+    }
+
+    div.about-us__image-container {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 64px;
+        background: url('/assets/images/constructionSite.jpg') no-repeat center 58%;
+        background-size: cover;
+    }
+
+    div.about-us-description {
+        width: 100%;
+        height: 100%;
+        margin: 32px 0;
+
+        h4.about-us-descripion__title {
+            margin-bottom: 32px;
+        }
+    }
+
+    div.about-us-brands {
+        h4.about-us-brands__title {
+            margin: 64px 0 32px 0;
+        }
+    }
+
+    figure.about-us-image-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 250px 250px 250px;
+        grid-gap: 28px;
+
+        img {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid rgba($color: #000000, $alpha: 0.25);
+            border-radius: 10px;
+        }
+    }
+}
