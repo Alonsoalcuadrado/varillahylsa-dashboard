@@ -1,33 +1,24 @@
 section#full-layout {
-    display: grid;
-    grid-template-columns: 275px 1fr;
+    display: flex;
     width: 100%;
     height: 100%;
 
     div.aside-navbar-container {
         position: fixed;
-        grid-column: 1;
-        width: 275px;
+        width: 19.1%;
         height: 100%;
     }
 
-    div.right-content {
-        position: relative;
-        display: grid;
-        grid-column: 2;
-        grid-template-rows: 80px 1fr;
+    div.navbar-container {
+        position: fixed;
+        left: 19.1%;
         width: 100%;
-        
-        div.navbar-container {
-            grid-row: 1;
-            position: fixed;
-            width: 100%;
-            background: $white-color;
-        }
-    
-        div.main-content {
-            grid-row: 2;
-        }
+        background: $white-color;
+    }
 
+    div.main-content {
+        padding-left: 20%;
+        padding-top: 5.5%;
+        width: 100%;
     }
 }
