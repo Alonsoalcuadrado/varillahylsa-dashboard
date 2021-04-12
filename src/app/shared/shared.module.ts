@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import {RouterModule} from '@angular/router';
 
 import { AsideNavbarComponent } from './aside-navbar/aside-navbar.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -18,7 +19,8 @@ import { InfoCardComponent } from './info-card/info-card.component';
   ],
   imports: [
     CommonModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    RouterModule
   ],
   exports: [
     AsideNavbarComponent,
