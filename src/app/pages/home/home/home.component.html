@@ -12,32 +12,36 @@
     </carousel>
     </div>
     <div class="link-cards">
-        <app-link-card image="assets/images/packed.png" title="Envasados"></app-link-card>
-        <app-link-card image="assets/images/addeds.png" title="Agregados"></app-link-card>
-        <app-link-card image="assets/images/steels.png" title="Aceros"></app-link-card>
-        <app-link-card image="assets/images/brick.png" title="Prefabricados"></app-link-card>
-        <app-link-card image="assets/images/others.png" title="Otros"></app-link-card>
+        <app-link-card image="assets/images/packed.png" title="Envasados" route='envasados'></app-link-card>
+        <app-link-card image="assets/images/addeds.png" title="Agregados" route='agregados'></app-link-card>
+        <app-link-card image="assets/images/steels.png" title="Aceros" route='aceros'></app-link-card>
+        <app-link-card image="assets/images/brick.png" title="Prefabricados" route='prefabricados'></app-link-card>
+        <app-link-card image="assets/images/others.png" title="Otros" route='otros'></app-link-card>
     </div>
     <div class="info-cards">
         <app-info-card
             title='Materiales a tu disposición'
             body='En HYLSA nos tomamos muy en serio tu proyecto, por eso ponemos a tu disposición materiales de construcción, desde cemento y varilla hasta plomería y material eléctrico. Conoce nuestro catálogo y construye con nosotros.'
-            btnText='Ver Materiales'>
+            btnText='Ver Materiales'
+            route='materiales'>
         </app-info-card>
         <app-info-card
             title='Pregunta sin compromiso'
             body='Estamos atentos a tus necesidades y comentarios, puedes conectar con nosotros a través de un correo o una llamada rápida o si lo prefieres envíanos WhatsApp para preguntar por el material que necesitas para tu proyecto.'
-            btnText='Contacto Rapido'>
+            btnText='Contacto Rapido'
+            route='contacto'>
         </app-info-card>
         <app-info-card
             title='¡Estamos Creciendo!'
             body='Nos encontramos en constante evolución para ofrecerte siempre lo mejor e interactuar de la manera más rápida posible, conócenos y se parte de nuestro crecimiento.'
-            btnText='Saber Más'>
+            btnText='Saber Más'
+            route='nosotros'>
         </app-info-card>
         <app-info-card
             title='Contáctanos'
             body='Conoce nuestras principales vías de contacto y nuestra ubicación o puedes enviarnos un correo con mas detalle de manera simple y rápida, nosotros nos pondremos en contacto contigo lo antes posible.'
-            btnText='Ver Más'>
+            btnText='Ver Más'
+            route='contacto'>
         </app-info-card>
     </div>
 </section>
