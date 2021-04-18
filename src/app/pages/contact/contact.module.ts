@@ -4,6 +4,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 
 import { ContactRoutingModule } from './contact-routing.module';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
   imports: [
     CommonModule,
     ContactRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SharedModule
   ]
 })
 export class ContactModule { }

@@ -7,6 +7,7 @@ import { AsideNavbarComponent } from './aside-navbar/aside-navbar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LinkCardComponent } from './link-card/link-card.component';
 import { InfoCardComponent } from './info-card/info-card.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 
@@ -15,7 +16,8 @@ import { InfoCardComponent } from './info-card/info-card.component';
     AsideNavbarComponent,
     NavbarComponent,
     LinkCardComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    ContactFormComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import { InfoCardComponent } from './info-card/info-card.component';
     NavbarComponent,
     LinkCardComponent,
     InfoCardComponent,
-    IvyCarouselModule
+    IvyCarouselModule,
+    ContactFormComponent
   ]
 })
 export class SharedModule { }

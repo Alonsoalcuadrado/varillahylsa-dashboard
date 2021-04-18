@@ -9,13 +9,40 @@ section#contact-us {
         margin-bottom: 26px;
     }
 
-    div.about-us-contact {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        margin-bottom: 48px;
+    div.contact-form {
+        align-self: center;
+        width: 70%;
+        margin-bottom: 60px;
+        height: 100%;
+        padding: 40px;
+        border: 0.5px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
 
-        div.contact-us-contact__option {
+    div.contact-us-info {
+        display: flex;
+        justify-content: space-evenly;
+
+        div.contact-us-contact {
+            display: flex;
+            flex-direction: column;
+    
+            div.contact-us-contact__option {
+                display: flex;
+                margin-bottom: 48px;
+                @include contact-info;
+                i {
+                    margin-right: 20px;
+                    font-size: 2.4rem;
+                    color: $title-color;
+    
+                }
+            }
+        }
+
+        div.contact-us-address__text {
             display: flex;
             width: 30%;
             @include contact-info;
@@ -23,35 +50,7 @@ section#contact-us {
                 margin-right: 20px;
                 font-size: 2.4rem;
                 color: $title-color;
-
             }
-            &:first-child {
-                width: 30%;
-            }
-            &:nth-child(2) {
-                width: 15%;
-            }
-        }
-    }
-
-    div.contact-form {
-        align-self: center;
-        width: 70%;
-        height: 100%;
-        padding: 40px;
-        border: 0.5px solid rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
-
-        .contact-form__input {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-
-        div.contact-form__button {
-            width: 175px;
-            margin-top: 32px;
         }
     }
 }
