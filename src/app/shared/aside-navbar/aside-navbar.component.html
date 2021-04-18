@@ -3,9 +3,28 @@
         <a routerLink='/home'><img class="navbar-header__img" src="assets/images/hylsa-logo.png" alt="Brand logo"></a>
     </div>
     <ul class="navbar-links">
-        <li class="navbar-links__link"><a routerLink='/home'><i class="fas fa-home navbar-links__left-icon"></i>Inicio</a></li>
-        <li class="navbar-links__link"><a routerLink='/nosotros'><i class="far fa-building navbar-links__left-icon"></i>Nosotros</a></li>
-        <li class="navbar-links__link"><a routerLink='/materiales'><i class="fas fa-toolbox navbar-links__left-icon"></i>Materiales<i class="fas fa-chevron-right navbar-links__right-icon"></i></a></li>
-        <li class="navbar-links__link"><a routerLink='/contacto'><i class="far fa-comments navbar-links__left-icon"></i>Contacto</a></li>
+        <li class="navbar-links__link"><a routerLink='/home' routerLinkActive='active'><i class="fas fa-home navbar-links__left-icon"></i>Inicio</a></li>
+        <li class="navbar-links__link"><a routerLink='/nosotros' routerLinkActive='active'><i class="far fa-building navbar-links__left-icon"></i>Nosotros</a></li>
+        <li class="navbar-links__link--submenu">
+            <div class="submenu-link-text" routerLinkActive='active' (click)="materialsSubmenu()">
+                <i class="fas fa-toolbox navbar-links__left-icon"></i>
+                Materiales
+                <ng-container *ngIf="!showSubmenu; else elseTemplate">
+                    <i class="fas fa-chevron-right navbar-links__right-icon"></i>
+                </ng-container>
+                <ng-template #elseTemplate>
+                    <i class="fas fa-chevron-down navbar-links__right-icon"></i>
+                </ng-template>
+                
+            </div>
+            <ul class="submenu-container" *ngIf="showSubmenu">
+                <li class="submenu__link"><a routerLink='/materiales/envasados' routerLinkActive='active'>Envasados</a></li>
+                <li class="submenu__link"><a routerLink='/materiales/agregados' routerLinkActive='active'>Agregados</a></li>
+                <li class="submenu__link"><a routerLink='/materiales/aceros' routerLinkActive='active'>Aceros</a></li>
+                <li class="submenu__link"><a routerLink='/materiales/prefabricados' routerLinkActive='active'>Prefabricados</a></li>
+                <li class="submenu__link"><a routerLink='/materiales/otros' routerLinkActive='active'>Otros</a></li>
+            </ul>
+        </li>
+        <li class="navbar-links__link"><a routerLink='/contacto' routerLinkActive='active'><i class="far fa-comments navbar-links__left-icon"></i>Contacto</a></li>
     </ul>
 </section>

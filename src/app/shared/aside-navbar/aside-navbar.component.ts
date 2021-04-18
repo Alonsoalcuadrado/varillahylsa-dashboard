@@ -8,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AsideNavbarComponent implements OnInit {
 
+  public showSubmenu: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  materialsSubmenu(): void {
+    this.showSubmenu = !this.showSubmenu
   }
 
 }
