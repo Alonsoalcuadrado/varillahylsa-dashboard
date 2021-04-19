@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LinkCardComponent } from './link-card/link-card.component';
 import { InfoCardComponent } from './info-card/info-card.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 
 
@@ -17,7 +18,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     LinkCardComponent,
     InfoCardComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    ProductCardComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     LinkCardComponent,
     InfoCardComponent,
     IvyCarouselModule,
-    ContactFormComponent
+    ContactFormComponent,
+    ProductCardComponent
   ]
 })
 export class SharedModule { }

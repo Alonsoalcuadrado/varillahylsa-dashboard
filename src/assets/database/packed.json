@@ -1,0 +1,175 @@
+{
+    "products": [
+        {
+            "image": "assets/images/envasados/envasado-1.png",
+            "description": "Cemento Blanco Cpc30Rb, Tonelada",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-2.jpeg",
+            "description": "Cemento Blanco Cpc30Rb, venta por kilogramo",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-3.jpeg",
+            "description": "Cemento Gris Cpc30R Extra, Venta Por Kilogramo",
+            "brand": "Tolteca"
+        },
+        {
+            "image": "assets/images/envasados/envasado-4.png",
+            "description": "Cemento Gris CPC30Rs Extra 50kg, Saco",
+            "brand": "Tolteca"
+        },
+        {
+            "image": "assets/images/envasados/envasado-5.jpeg",
+            "description": "Cemento Impercem Cpc30R 50Kg, Saco",
+            "brand": "Monterrey"
+        },
+        {
+            "image": "assets/images/envasados/envasado-6.jpeg",
+            "description": "Tolteca, Cemento Mortero, Tonelada",
+            "brand": "Tolteca"
+        },
+        {
+            "image": "assets/images/envasados/envasado-7.jpeg",
+            "description": "Tolteca, Cemento Impercem Cpc30R, Tonelada",
+            "brand": "Tolteca"
+        },
+        {
+            "image": "assets/images/envasados/envasado-8.jpeg",
+            "description": "Anahuac, Cemento Gris Cpc30R Extra 50kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-9.png",
+            "description": "Cemex, Multiplast 40Kg, Tonelada",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-10.jpeg",
+            "description": "Anahuac, Cemento Gris Cpc30R Extra, Tonelada",
+            "brand": "Anahuac"
+        },
+        {
+            "image": "assets/images/envasados/envasado-11.jpeg",
+            "description": "Cemex, Cemento Blanco Cpc30Rb Big Bag, Tonelada",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-12.png",
+            "description": "Cemex, Cemento Blanco Cpc30Rb 50Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-13.jpeg",
+            "description": "Cemex, Cemento Gris Cpc40Rs Big Bag, Tonelada",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-14.jpeg",
+            "description": "Cemex, Cemento Gris Cpc40 Big Bag, Tonelada",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-15.jpeg",
+            "description": "Tolteca, Cemento Gris Cpc30R Extra 25Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-16.jpeg",
+            "description": "Tolteca, Cemento Mortero 25Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-17.jpeg",
+            "description": "Fester, Cm-200 Reparador 25kg, Pieza",
+            "brand": "Fester"
+        },
+        {
+            "image": "assets/images/envasados/envasado-18.jpeg",
+            "description": "Fester, Festergrout Nm 600 10Kg, Pieza",
+            "brand": "Fester"
+        },
+        {
+            "image": "assets/images/envasados/envasado-19.jpeg",
+            "description": "Cemex, Cemento Gris Impercem CPC30R 2Kg, Paquete",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-20.jpeg",
+            "description": "Cemex, Mortero 2Kg, Paquete",
+            "brand": "Cemex"
+        },
+
+        {
+            "image": "assets/images/envasados/envasado-21.jpeg",
+            "description": "Cemex, Multiplast Blanco 2Kg, Paquete",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-22.png",
+            "description": "Tolteca, Cemento Gris Cpc30R Extra, Saco 50Kg, Tonelada",
+            "brand": "Tolteca"
+        },
+        {
+            "image": "assets/images/envasados/envasado-23.jpeg",
+            "description": "Cemex, Mortero 2Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-24.jpeg",
+            "description": "Cemex, Multiplast Blanco 2Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-25.jpeg",
+            "description": "Cemex, Cemento Gris CPC30R 2Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-26.jpeg",
+            "description": "Cemex, Cemento Gris Impercem CPC30R 2Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-27.jpeg",
+            "description": "Cemex, Cemento Blanco CPC30RB 2Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-28.jpeg",
+            "description": "Monterrey, Cemento Gris Cpc30R Extra 50Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-29.png",
+            "description": "Tolteca, Cemento Mortero 50Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-30.jpeg",
+            "description": "Tolteca, Cemento Impercem Cpc30R 50Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-31.png",
+            "description": "Cemex, Multiplast 40Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-32.png",
+            "description": "Tolteca, Cemento Gris Cpc30R Extra 50Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-33.png",
+            "description": "Cemex, Cemento Blanco Cpc30Rb 25Kg, Saco",
+            "brand": "Cemex"
+        },
+        {
+            "image": "assets/images/envasados/envasado-34.jpeg",
+            "description": "Tolteca, Cemento Gris Cpc30R Extra, Tonelada",
+            "brand": "Tolteca"
+        }
+    ]
+}

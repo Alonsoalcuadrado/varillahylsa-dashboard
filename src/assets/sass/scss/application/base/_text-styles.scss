@@ -2,6 +2,7 @@ h2 {
     font-size: 2.8rem;
     font-weight: 600;
     color: $title-color;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -17,6 +18,18 @@ h4 {
 h5 {
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+h6 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+small {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 @mixin navigation-link {
