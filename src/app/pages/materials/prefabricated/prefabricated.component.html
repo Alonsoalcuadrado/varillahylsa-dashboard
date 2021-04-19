@@ -1,1 +1,10 @@
-<p>prefabricated works!</p>
+<section id="prefabricated" class="materials-section">
+    <h2 class="product__title">Prefabricados</h2>
+    <div class="product-cards steels">
+        <app-product-card *ngFor="let product of prefabricatedProducts"
+        productImage={{product.image}}
+        productDescription={{product.description}}
+        productBrand={{product.brand}}>
+        </app-product-card>
+    </div>
+</section>

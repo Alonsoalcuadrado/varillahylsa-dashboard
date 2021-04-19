@@ -13,4 +13,20 @@ export class ProductsService {
   getPackedProducts() {
     return this.httpClient.get('assets/database/packed.json').pipe(map((response: any) => response.products));
   }
+
+  getSteelProducts() {
+    return this.httpClient.get('assets/database/steels.json').pipe(map((response: any) => response.products));
+  }
+
+  getAddedProducts() {
+    return this.httpClient.get('assets/database/added.json').pipe(map((response: any) => response.products));
+  }
+
+  getPrefabricatedProducts() {
+    return this.httpClient.get('assets/database/prefabricated.json').pipe(map((response: any) => response.products));
+  }
+
+  getOtherProducts() {
+    return this.httpClient.get('assets/database/other.json').pipe(map((response: any) => response.products));
+  }
 }

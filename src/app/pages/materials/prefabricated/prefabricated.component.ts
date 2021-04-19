@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from '../../../services/products.service';
 
 @Component({
   selector: 'app-prefabricated',
@@ -8,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrefabricatedComponent implements OnInit {
 
-  constructor() { }
+  public prefabricatedProducts: any = [];
+
+  constructor(private productsService: ProductsService) { }
 
   ngOnInit(): void {
+    this.getProducts();
+  }
+
+  getProducts() {
+    this.productsService.getPrefabricatedProducts().subscribe((products) => {
+      this.prefabricatedProducts = products;
+    })
   }
 
 }

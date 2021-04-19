@@ -11,5 +11,9 @@ section.materials-section {
     div.product-cards {
         display: flex;
         flex-wrap: wrap;
+
+        &.steels {
+            overflow: hidden;
+        }
     }
 }

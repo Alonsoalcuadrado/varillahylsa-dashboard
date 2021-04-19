@@ -1,1 +1,10 @@
-<p>added works!</p>
+<section id="added" class="materials-section">
+    <h2 class="product__title">Agregados</h2>
+    <div class="product-cards steels">
+        <app-product-card *ngFor="let product of addedProducts"
+        productImage={{product.image}}
+        productDescription={{product.description}}
+        productBrand={{product.brand}}>
+        </app-product-card>
+    </div>
+</section>
