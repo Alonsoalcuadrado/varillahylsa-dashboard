@@ -1,9 +1,189 @@
 {
     "products": [
         {
-            "image": "assets/images/prefabricados/prefabricados-prueba.jpeg",
-            "description": "Estrublock, Block Hueco De Concreto 15X20X40 cm, Pieza",
-            "brand": "ESTRUBLOCK"
+            "image": "assets/images/prefabricados/block-liso.jpeg",
+            "description": "Rocablocks, Tabicón, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-liso.jpeg",
+            "description": "Block 15X20X40 Común Adobe, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco.jpeg",
+            "description": "Block Hueco 12-20-40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-horizontal.jpeg",
+            "description": "Block Pesado, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-horizontal-hueco.jpeg",
+            "description": "Block Ligero, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/ladrillo-hueco.jpeg",
+            "description": "Ladrillo Rojo Pequeño, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-liso.jpeg",
+            "description": "Tabicón Pesado 7, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-liso.jpeg",
+            "description": "Tabicón Pesado 9, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Ligero 7, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-gris.jpeg",
+            "description": "Block Hueco 10 X 20 X 40 cm, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-gris-angulo.jpeg",
+            "description": "Block Hueco 12 X 20 X 40 cm, Ciento",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-negro.jpeg",
+            "description": "Block Hueco 15 X 20 X 40 cm, Ciento",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Block Macizo 12 X 20 X 40 cm, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Block Macizo 12X19X40 Cm, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/tabique.jpeg",
+            "description": "Estrublock, Tabique Sólido 15X20X40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/medio-tabique.jpeg",
+            "description": "Block 12-20-40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Puebla 10X14X28, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Pesado 12X20X40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Puebla 12X19X40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/ladrillo.jpeg",
+            "description": "Tabique Rojo Puebla, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco-arriba.jpeg",
+            "description": "Block Hueco 20 X 20 X 40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco-arriba-delgado.jpeg",
+            "description": "Block Hueco 10 X 20 X 40, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco-arriba-delgado.jpeg",
+            "description": "Block Hueco 12 X 20 X 40, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco-arriba.jpeg",
+            "description": "Block Hueco 15 X 20 X 40, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-hueco-arriba.jpeg",
+            "description": "Block Hueco 20 X 20 X 40, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/ladrillos.jpeg",
+            "description": "Ladrillo Rojo, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/tabique-pie.jpeg",
+            "description": "Tabique Ligero, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Ligero 7 X 13 X 25 cm, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Ligero 7 X 13 X 25 cm, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Ligero 7 X 13 X 25 cm, Ciento",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-horizontal.jpeg",
+            "description": "Block Sólido Ligero 12 X 18 X 38 cm, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Pesado 7 X 13 X 25 cm, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-horizontal.jpeg",
+            "description": "Block Sólido Ligero 12 X 18 X 38 cm, Ciento",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-horizontal.jpeg",
+            "description": "Block Sólido Ligero 12 X 18 X 38 cm, Millar",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-pedrado.jpeg",
+            "description": "Tabicón Ligero 9, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-liso.jpeg",
+            "description": "Pieza De Block, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/prefabricados/block-macizo.jpeg",
+            "description": "Block Macizo Gris 12X18X38 cm, Pieza",
+            "brand": "GENÉRICO"
         }
     ]
 }
