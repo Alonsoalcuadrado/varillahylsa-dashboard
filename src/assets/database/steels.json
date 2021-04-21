@@ -1,8 +1,203 @@
 {
     "products": [
         {
-            "image": "assets/images/aceros/acero-prueba.jpeg",
-            "description": "Gerdau, Varilla Corrugada 1/2'', 12 Kilogramos, Pieza",
+            "image": "assets/images/aceros/varilla.jpeg",
+            "description": "Gasa, Varilla ½'' Recta, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla ½'' Doblada, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/roscada.jpeg",
+            "description": "Anclo, Barra Roscada 6.5 mm 1/4'' x m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/roscada.jpeg",
+            "description": "Anclo, Barra Roscada 7.9 mm 5/16'' x m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 3/8'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/roscada.jpeg",
+            "description": "Anclo, Barra Roscada 4.7 mm 3/16'' x m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 5/8'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 1/2'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 1 1/2'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 1 1/4'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 3/4'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 5/8'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1/2'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 3/4'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 3/8'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1 1/4'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1 1/2'', Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 1/2'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 3/8'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 5/8'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varillas.jpeg",
+            "description": "San Luis, Varilla Corrugada 42 De 3/4'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 3/8'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1/2'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 5/8'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1 1/4'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 3/4'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/3varillas.jpeg",
+            "description": "Varilla 5/8'' 12 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/corrugada.jpeg",
+            "description": "Tyasa, Varilla Corrugada de 1 1/2'', Tonelada",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Corrugada 1 1/4'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Corrugada 1 1/2'', Kilogramos",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/roscada-izquierda.jpeg",
+            "description": "Fiero, Varilla Roscada 3/8'' X 1M, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/negra.jpeg",
+            "description": "Sicartsa, Varilla 3/8'' 12 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/recta.jpeg",
+            "description": "Tultitlan, Varilla 3/8 12 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/recta.jpeg",
+            "description": "Tultitlan, Varilla 5/8 12 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Tec 60 1/4'' 6 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Tec 60 5/16'' 12 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/roscada-izquierda-chica.jpeg",
+            "description": "Fiero, Varilla Roscada, 5/8' X 1 m, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Corrugada 1'' Doblada, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Corrugada 1/2'' Doblada, Pieza",
+            "brand": "Deacero"
+        },
+        {
+            "image": "assets/images/aceros/varilla-gris.jpeg",
+            "description": "Varilla Corrugada 3/8'' Doblada, Pieza",
             "brand": "Deacero"
         }
     ]
