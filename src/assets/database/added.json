@@ -1,8 +1,178 @@
 {
     "products": [
         {
-            "image": "assets/images/agregados/agregados-prueba.jpeg",
-            "description": "Arena Amarilla, Metro Cúbico",
+            "image": "assets/images/agregados/agregado-1.jpeg",
+            "description": "Grava Caliza, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-2.jpeg",
+            "description": "Grava De Tezontle Negro, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-3.jpeg",
+            "description": "Arena De Mina, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-4.jpeg",
+            "description": "Gravilla, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-5.jpeg",
+            "description": "Grava Mina, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-6.jpeg",
+            "description": "Piedra Monte, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-7.jpeg",
+            "description": "Tepojal, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-8.jpeg",
+            "description": "Tezontle En Breña, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-9.jpeg",
+            "description": "Arena Gris, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-10.jpeg",
+            "description": "Tepezil, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-11.jpeg",
+            "description": "Gravilla, Cubeta",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-12.jpeg",
+            "description": "Grava Triturada 3/4'', Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-13.jpeg",
+            "description": "Grava Caliza, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-14.jpeg",
+            "description": "Grava De 3/4, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-15.jpeg",
+            "description": "Arena Gris, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-16.jpeg",
+            "description": "Granson, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-17.jpeg",
+            "description": "Grava Triturada 1/2, Metro Cuadrado",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-18.jpeg",
+            "description": "Tezontle Tipo Grava, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-19.jpeg",
+            "description": "Piedra Negra Para Cimiento 6 Metros, Viaje",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-20.jpeg",
+            "description": "Gravilla, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-21.jpeg",
+            "description": "Arena #4, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-22.jpeg",
+            "description": "Arena #5, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-23.jpeg",
+            "description": "1/2 Metro De Arena 4, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-24.jpeg",
+            "description": "1/2 Metro De Arena 5, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-25.jpeg",
+            "description": "Bolsa De Cascajo 2, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-26.jpeg",
+            "description": "Arena #4, Saco",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-27.jpeg",
+            "description": "Carretilla De Arena #5, Viaje",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-28.jpeg",
+            "description": "Arena #5 Viaje 6 Mt3, Viaje",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-29.jpeg",
+            "description": "Grava 2, Metro Cúbico",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-30.jpeg",
+            "description": "Bote Grava Negra, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-31.jpeg",
+            "description": "Bote Tepojal, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-32.jpeg",
+            "description": "Bote Tezontle, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-33.jpeg",
+            "description": "Carretilla Arena Negra, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-34.jpeg",
+            "description": "Carretilla Grava Blanca, Pieza",
+            "brand": "GENÉRICO"
+        },
+        {
+            "image": "assets/images/agregados/agregado-35.jpeg",
+            "description": "Bote Tepetate, Pieza",
             "brand": "GENÉRICO"
         }
     ]
