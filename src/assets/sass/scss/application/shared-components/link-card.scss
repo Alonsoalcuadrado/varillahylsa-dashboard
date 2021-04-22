@@ -15,4 +15,27 @@ section#link-card {
         width: 175px;
         height: 100px;
     }
+
+    @media screen and (max-width: 1280px) {
+        width: 170px;
+        
+        img {
+            width: 150px;
+            height: 90px;
+        }
+    }
+
+    // @media screen and (max-width: 1080px) {
+    //     width: 130px;
+    //     height: 135px;
+
+    //     img {
+    //         width: 110px;
+    //         height: 75px;
+    //     }
+
+    //     h4.link-card__title {
+    //         font-size: 1.6rem;
+    //     }
+    // }
 }

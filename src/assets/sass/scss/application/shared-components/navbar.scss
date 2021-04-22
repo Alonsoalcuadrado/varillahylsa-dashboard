@@ -9,10 +9,11 @@ section#navbar {
     div.contact-text {
         display: flex;
         align-items: center;
-        width: 42%;
+        width: 50%;
         div.contact-text__contact {
             display: flex;
             align-items: center;
+            width: 100%;
             padding-right: 24px;
             i{
                 font-size: 3rem;
@@ -28,6 +29,7 @@ section#navbar {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        width: 50%;
         div.contact-buttons__button {
             padding-right: 24px;
         }
@@ -36,5 +38,40 @@ section#navbar {
                 padding-left: 8px;
             }
         }
+    }
+
+    @media screen and (max-width: 1280px) {
+        // background-color: red;
+        // div.contact-text {
+        //     div.contact-text__contact {
+        //         i{
+        //             font-size: 2.5rem;
+        //             padding-right: 8px;
+        //             color: $brand-color;
+        //         }
+        //         p {
+        //             font-size: 1.5rem;
+        //         }
+        //     }
+        // }
+
+        // div.contact-buttons {
+        //     background-color: red;
+        //     div.contact-buttons__button {
+        //         .button--primary {
+        //             padding: 0 12px;
+        //             font-size: 1.2rem;
+        //         }
+        //     }
+        //     div.contact-buttons__button--whatsapp {
+        //         .button--whatsapp {
+        //             padding: 0 12px;
+        //             font-size: 1.2rem;
+        //         }
+        //         i {
+        //             padding-left: 8px;
+        //         }
+        //     }
+        // }
     }
 }

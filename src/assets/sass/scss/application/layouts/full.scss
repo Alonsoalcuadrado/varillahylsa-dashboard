@@ -5,20 +5,20 @@ section#full-layout {
 
     div.aside-navbar-container {
         position: fixed;
-        width: 18%;
+        width: 260px;
         height: 100%;
     }
 
     div.navbar-container {
         position: fixed;
-        left: 18%;
+        left: 260px;
         width: 82%;
         background: $white-color;
         z-index: 2000000;
     }
 
     div.main-content {
-        padding-left: 18%;
+        padding-left: 260px;
         padding-top: 79px;
         width: 100%;
     }
