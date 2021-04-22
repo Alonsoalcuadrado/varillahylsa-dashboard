@@ -43,4 +43,13 @@ section#about-us {
             border-radius: 10px;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        figure.about-us-image-container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 200px 200px 200px;
+            grid-gap: 28px;
+        }
+    }
 }

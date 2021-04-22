@@ -58,4 +58,20 @@ section#navbar {
             display: flex;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        div.contact-text {
+            width: 72%;
+        }
+
+        div.contact-buttons {
+            width: 28%;
+            div.contact-buttons__button{
+                padding: 0;
+            }
+            div.contact-buttons__button--whatsapp {
+                display: none;
+            }
+        }
+    }
 }
