@@ -2,6 +2,7 @@
     <div class="navbar-header">
         <a routerLink='/home'><img class="navbar-header__img" src="assets/images/hylsa-logo.png" alt="Brand logo"></a>
     </div>
+    <i class="fas fa-chevron-left hide-aside-menu-button" (click)="hideMenu()"></i>
     <ul class="navbar-links">
         <li class="navbar-links__link"><a routerLink='/home' routerLinkActive='active'><i class="fas fa-home navbar-links__left-icon"></i>Inicio</a></li>
         <li class="navbar-links__link"><a routerLink='/nosotros' routerLinkActive='active'><i class="far fa-building navbar-links__left-icon"></i>Nosotros</a></li>
@@ -27,5 +28,4 @@
         </li>
         <li class="navbar-links__link"><a routerLink='/contacto' routerLinkActive='active'><i class="far fa-comments navbar-links__left-icon"></i>Contacto</a></li>
     </ul>
-    <i class="fas fa-chevron-left hide-aside-menu-button" (click)="hideMenu()"></i>
 </section>
