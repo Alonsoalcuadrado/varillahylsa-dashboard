@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-aside-navbar',
@@ -10,6 +10,8 @@ export class AsideNavbarComponent implements OnInit {
 
   public showSubmenu: boolean = false;
 
+  @Output() hideAsideMenu = new EventEmitter<boolean>();
+
   constructor() { }
 
   ngOnInit(): void {
@@ -17,6 +19,10 @@ export class AsideNavbarComponent implements OnInit {
 
   materialsSubmenu(): void {
     this.showSubmenu = !this.showSubmenu
+  }
+
+  hideMenu() {
+    this.hideAsideMenu.emit(false);
   }
 
 }

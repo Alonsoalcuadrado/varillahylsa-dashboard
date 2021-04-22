@@ -6,10 +6,21 @@ section#navbar {
     height: 80px;
     padding: 0 40px;
     border-bottom: 2px solid $brand-color;
+
+    div.menu-button {
+        display: none;
+        margin-right: 18px;
+        i {
+            font-size: 4rem;
+            color: $brand-color;
+        }
+    }
+
     div.contact-text {
         display: flex;
         align-items: center;
         width: 50%;
+
         div.contact-text__contact {
             display: flex;
             align-items: center;
@@ -40,38 +51,11 @@ section#navbar {
         }
     }
 
-    @media screen and (max-width: 1280px) {
-        // background-color: red;
-        // div.contact-text {
-        //     div.contact-text__contact {
-        //         i{
-        //             font-size: 2.5rem;
-        //             padding-right: 8px;
-        //             color: $brand-color;
-        //         }
-        //         p {
-        //             font-size: 1.5rem;
-        //         }
-        //     }
-        // }
+    @media screen and (max-width: 1024px) {
+        padding: 0 20px;
 
-        // div.contact-buttons {
-        //     background-color: red;
-        //     div.contact-buttons__button {
-        //         .button--primary {
-        //             padding: 0 12px;
-        //             font-size: 1.2rem;
-        //         }
-        //     }
-        //     div.contact-buttons__button--whatsapp {
-        //         .button--whatsapp {
-        //             padding: 0 12px;
-        //             font-size: 1.2rem;
-        //         }
-        //         i {
-        //             padding-left: 8px;
-        //         }
-        //     }
-        // }
+        div.menu-button {
+            display: flex;
+        }
     }
 }

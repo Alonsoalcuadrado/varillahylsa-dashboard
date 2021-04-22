@@ -7,6 +7,7 @@ section#full-layout {
         position: fixed;
         width: 260px;
         height: 100%;
+        z-index: 2000000000;
     }
 
     div.navbar-container {
@@ -21,5 +22,43 @@ section#full-layout {
         padding-left: 260px;
         padding-top: 79px;
         width: 100%;
+    }
+
+    @keyframes showMenu {
+        0% {left: -100%;};
+        100% {left: 0;};
+    }
+
+    @keyframes hideMenu {
+        0% {left: 0;};
+        100% {left: -100%;};
+    }
+
+    @media screen and (max-width: 1024px) {
+        div.hide-aside-navbar {
+            animation-name: hideMenu;
+            animation-duration: 300ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+        div.show-aside-navbar {
+            animation-name: showMenu;
+            animation-duration: 300ms;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+        div.navbar-container {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            background: $white-color;
+            z-index: 2000000;
+        }
+    
+        div.main-content {
+            padding-left: 0;
+        }
     }
 }
