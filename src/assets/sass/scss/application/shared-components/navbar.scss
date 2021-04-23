@@ -74,4 +74,14 @@ section#navbar {
             }
         }
     }
+
+    @media screen and (max-width: 414px) {
+        div.contact-text {
+            display: none;
+        }
+
+        div.contact-buttons {
+            width: 100%;
+        }
+    }
 }

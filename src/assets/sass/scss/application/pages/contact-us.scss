@@ -53,4 +53,14 @@ section#contact-us {
             }
         }
     }
+
+    @media screen and (max-width: 414px) {
+        div.contact-form {
+            width: 100%;
+        }
+
+        div.contact-us-info {
+            flex-direction: column;
+        }
+    }
 }

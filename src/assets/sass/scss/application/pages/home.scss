@@ -33,4 +33,18 @@ section#home-page {
             padding: 0 50px;
         }
     }
+
+    @media screen and (max-width: 414px) {
+        div.link-cards {
+            height: 600px;
+            flex-wrap: wrap;
+            padding: 0 0 0 14px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        div.link-cards {
+            height: 850px;
+        }
+    }
 }

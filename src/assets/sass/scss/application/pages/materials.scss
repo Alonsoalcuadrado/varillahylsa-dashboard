@@ -16,4 +16,8 @@ section.materials-section {
             overflow: hidden;
         }
     }
+
+    @media screen and (max-width: 414px) {
+        padding-left: 84px;
+    }
 }

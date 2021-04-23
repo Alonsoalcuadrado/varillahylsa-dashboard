@@ -52,4 +52,13 @@ section#about-us {
             grid-gap: 28px;
         }
     }
+
+    @media screen and (max-width: 414px) {
+        figure.about-us-image-container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 28px;
+        }
+    }
 }
