@@ -63,4 +63,22 @@ section#contact-us {
             flex-direction: column;
         }
     }
+
+    @media screen and (max-width: 350px) {
+        div.contact-form {
+            width: 100%;
+            padding: 20px;
+        }
+
+        div.contact-us-info {
+            flex-direction: column;
+        }
+
+        div.contact-us-address__frame {
+            iframe{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
 }
