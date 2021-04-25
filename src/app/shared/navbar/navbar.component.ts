@@ -8,6 +8,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  public phoneContact: string = '524426808182'
+  public whatsappMessage: string = 'Hola, estoy interesado en tus productos, me gustaría más información';
+
   @Output() showAsideMenu = new EventEmitter<boolean>();
 
   constructor() { }
